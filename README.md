@@ -15,8 +15,7 @@ Inside the start.sh you can like, do the following things:
 ```
 version: '3'
 services:
-    web:
-        container_name: "my-pm2-container"
+    node:
         image: oberonamsterdam/pm2-git:8-alpine
         restart: always
         network_mode: "bridge"
