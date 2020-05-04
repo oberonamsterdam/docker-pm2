@@ -1,5 +1,7 @@
 Based on https://hub.docker.com/r/keymetrics/pm2/
 
+# 04-05-2020: Removing node-4 support due to build errors (node-gyp-build), adding node-12 LTS
+
 # Adding git to image
 
 Since we run the source inside out PM2 containers, we need git+ssh to update inside the container.
