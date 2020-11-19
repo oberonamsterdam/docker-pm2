@@ -1,5 +1,6 @@
 Based on https://hub.docker.com/r/keymetrics/pm2/
 
+# 19-1-2020: Adding node-14 LTS support, PS5 released here but haven't been able to get one...
 # 04-05-2020: Removing node-4 support due to build errors (node-gyp-build), adding node-12 LTS
 
 # Adding git to image
